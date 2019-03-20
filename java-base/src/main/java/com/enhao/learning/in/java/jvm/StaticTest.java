@@ -1,4 +1,4 @@
-package com.enhao.test.in.java.jvm;
+package com.enhao.learning.in.java.jvm;
 
 /**
  * 考察执行顺序
