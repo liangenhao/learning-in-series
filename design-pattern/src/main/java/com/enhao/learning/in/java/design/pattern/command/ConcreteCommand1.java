@@ -7,10 +7,8 @@ import java.beans.FeatureDescriptor;
  */
 public class ConcreteCommand1 extends Command {
 
-    private Receiver receiver;
-
-    public ConcreteCommand1(Receiver receiver) {
-        this.receiver = receiver;
+    public ConcreteCommand1() {
+        super(new ConcreteReceiver1());
     }
 
     @Override
