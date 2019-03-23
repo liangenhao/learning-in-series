@@ -1,7 +1,7 @@
 package com.enhao.learning.in.java.design.pattern.chain_of_responsibility;
 
 /**
- * 抽象处理者
+ * 抽象处理者（这里融入了模板方法模式）
  *
  * @author enhao
  */
