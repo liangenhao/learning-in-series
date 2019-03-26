@@ -10,6 +10,7 @@
     <modules>
         <module>java-base</module>
         <module>design-pattern</module>
+        <module>algorithm</module>
     </modules>
     <packaging>pom</packaging>
 
