@@ -1,4 +1,4 @@
-package com.enhao.learning.in.java.jvm;
+package com.enhao.learning.in.java.jvm.class_loading_process;
 
 /**
  * 考察执行顺序
