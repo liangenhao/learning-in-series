@@ -11,6 +11,7 @@
         <module>java-base</module>
         <module>design-pattern</module>
         <module>algorithm</module>
+        <module>java-concurrency</module>
     </modules>
     <packaging>pom</packaging>
 

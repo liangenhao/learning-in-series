@@ -1,4 +1,4 @@
-package com.enhao.learning.in.java.concurrency;
+package com.enhao.learning.in.java.concurrency.queue;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.SynchronousQueue;

@@ -1,4 +1,4 @@
-package com.enhao.learning.in.java.concurrency;
+package com.enhao.learning.in.java.concurrency.tool;
 
 import java.util.concurrent.CountDownLatch;
 
