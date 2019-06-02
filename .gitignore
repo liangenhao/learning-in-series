@@ -28,3 +28,5 @@ target/
 # System related
 *.DS_Store
 Thumbs.db
+
+log

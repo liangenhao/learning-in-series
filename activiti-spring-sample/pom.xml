@@ -11,11 +11,5 @@
 
     <artifactId>activiti-spring-sample</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-engine</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>

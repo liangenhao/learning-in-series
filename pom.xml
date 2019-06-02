@@ -10,6 +10,7 @@
     <modules>
         <module>activiti-spring-sample</module>
         <module>activiti-spring-boot-sample</module>
+        <module>activiti-sample</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -21,19 +22,5 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <activiti.version>7.0.0.Beta1</activiti.version>
     </properties>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.activiti</groupId>
-                <artifactId>activiti-dependencies</artifactId>
-                <version>${activiti.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
-
 
 </project>
