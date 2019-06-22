@@ -5,6 +5,8 @@ import org.activiti.engine.ProcessEngineConfiguration;
 /**
  * 用来生成 activiti 的25张表结构
  *
+ * 通过获取 ProcessEngine 对象，就会自动创建25张表
+ *
  * @author enhao
  */
 public class GenerateTables {

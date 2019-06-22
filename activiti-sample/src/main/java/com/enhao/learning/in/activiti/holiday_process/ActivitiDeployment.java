@@ -7,6 +7,7 @@ import org.activiti.engine.repository.Deployment;
 
 /**
  * 部署请假流程的定义
+ *  注意：每个流程定义部署一次就行
  *
  * @author enhao
  */

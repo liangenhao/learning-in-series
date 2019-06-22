@@ -16,6 +16,6 @@
         <!-- 数据源 -->
         <property name="dataSource" ref="dataSource"/>
         <!--代表是否生成表结构-->
-        <property name="databaseSchemaUpdate" value="drop-create"/>
+        <property name="databaseSchemaUpdate" value="true"/>
     </bean>
 </beans>
