@@ -5,6 +5,10 @@ categories: Activiti
 tags: [Activiti]
 ---
 
+> 工程：`activity-sample`
+>
+> 包：`com.enhao.learning.in.activiti.generate_tables`
+
 ## acticiti依赖
 
 BOM：

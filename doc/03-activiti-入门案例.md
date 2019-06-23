@@ -7,6 +7,10 @@ tags: [Activiti]
 
 > 以请假流程为例。
 
+> 工程：`activity-sample`
+>
+> 包：`com.enhao.learning.in.activiti.holiday_process`
+
 ## 流程定义
 
 新建`bpmn`文件，进行流程设计：
