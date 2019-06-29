@@ -17,7 +17,7 @@ tags: [Activiti]
 
 ![holiday](images/holiday.png)
 
-画出上方的流程图。在每个 `userTask`节点上指定负责人`Assignee`。
+画出上方的流程图。在每个 `userTask`节点上指定固定负责人`Assignee`。
 
 > 添加请假单`Assignee`：zhangsan
 >
