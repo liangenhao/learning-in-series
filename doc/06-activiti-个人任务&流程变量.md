@@ -458,12 +458,15 @@ private static void completeTask(String assignee) {
 
 #### 设置 local 变量控制流程
 
-TODO
+local 流程变量，只能在改任务结束前使用，任务结束该变量无法在当前流程实例使用，可以通过查询历史任务获取。
 
-##### 任务办理时设置
+Local 流程变量每个任务可以设置同名的变量，互不影响。
 
-TODO
+```java
+TaskService taskService = processEngine.getTaskService();
+Holiday holiday = new Holiday();
+holiday.setNum(4F);
+taskService.setVariableLocal(task.getId(), "holiday", holiday);
+// taskService.setVariableLocal(taskId, variables);
+```
 
-##### 通过当前任务设置
-
-TODO
