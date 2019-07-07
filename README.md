@@ -12,4 +12,5 @@ Activiti 学习笔记。
 - [04-activiti-流程定义](doc/04-activiti-流程定义.md)
 - [05-activiti-流程实例](doc/05-activiti-流程实例.md)
 - [06-activiti-个人任务&流程变量](doc/06-activiti-个人任务&流程变量.md)
-
+- [07-activiti-组任务](doc/07-activiti-组任务.md)
+- [08-activiti-网关](doc/08-activiti-网关.md)
