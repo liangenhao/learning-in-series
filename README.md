@@ -14,3 +14,5 @@ Activiti 学习笔记。
 - [06-activiti-个人任务&流程变量](doc/06-activiti-个人任务&流程变量.md)
 - [07-activiti-组任务](doc/07-activiti-组任务.md)
 - [08-activiti-网关](doc/08-activiti-网关.md)
+- [09-activiti-spring整合](doc/09-activiti-spring整合.md)
+
