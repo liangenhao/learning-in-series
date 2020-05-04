@@ -1,5 +1,19 @@
 # learning-in-series
 
+## learning-in-java
+
+### 项目结构
+
+- `java-base`: Java 基础学习
+- `design-pattern`: 设计模式学习
+- `algorithm`: 算法相关
+- 未完待续...
+
+### algorithm
+
+- 排序算法
+- 布隆过滤器
+
 ## learning-in-kafka
 
 《深入理解Kafka 核心设计与实践原理》的读书笔记 + 操作实践。
