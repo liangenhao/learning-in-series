@@ -12,6 +12,9 @@
         <module>design-pattern</module>
         <module>algorithm</module>
         <module>java-concurrency</module>
+        <module>java-8</module>
+        <module>mapstruct</module>
+        <module>daily-question</module>
     </modules>
     <packaging>pom</packaging>
 
