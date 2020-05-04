@@ -133,3 +133,67 @@ Maven配置如下：
     3. `IGNORE`：未映射的目标属性将被忽略。
   - 【默认值】：WARN
   - 【注意】：**如果使用了`@Mapper#unmappedTargetPolicy()`，则优先使用注解设置的值。**
+
+
+
+## MapStruct和Lombok集成
+
+【添加依赖】：
+
+1. 添加lombok的依赖
+2. 添加lombok-processor
+
+```xml
+<properties>
+  <org.mapstruct.version>1.3.0.Final</org.mapstruct.version>
+  <lombok.version>1.18.12</lombok.version>
+</properties>
+
+<dependencies>
+  <dependency>
+    <groupId>org.mapstruct</groupId>
+    <artifactId>mapstruct</artifactId>
+    <version>${org.mapstruct.version}</version>
+  </dependency>
+
+  <!-- 引入 lombok 依赖 -->
+  <dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>${lombok.version}</version>
+    <scope>provided</scope>
+  </dependency>
+</dependencies>
+
+<build>
+  <plugins>
+    <!-- 提供给 mapstruct 使用 -->
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.5.1</version> <!-- or newer version -->
+      <configuration>
+        <source>1.8</source> <!-- depending on your project -->
+        <target>1.8</target> <!-- depending on your project -->
+        <annotationProcessorPaths>
+          <!-- 引入 mapstruct-processor -->
+          <path>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+            <version>${org.mapstruct.version}</version>
+          </path>
+
+          <!-- 引入 lombok-processor -->
+          <path>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+          </path>
+        </annotationProcessorPaths>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+```
+
+【使用lombok注解即可】

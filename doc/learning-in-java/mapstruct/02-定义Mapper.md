@@ -11,6 +11,28 @@ tags: [MapStruct]
 
 ## 定义一个Mapper
 
+```java
+public class Car {
+ 
+    private String make;
+    private int numberOfSeats;
+    private CarType type;
+ 
+    //constructor, getters, setters etc.
+}
+
+public class CarDto {
+ 
+    private String make;
+    private int seatCount;
+    private String type;
+ 
+    //constructor, getters, setters etc.
+}
+```
+
+
+
 ### 基本映射
 
 定义一个最简单的`Mapper`：
